@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Renderer driver that generates a XML string
 Summary(pl):	%{_pearname} - sterownik renderera generuj±cy ci±g znaków XML
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.1.2
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	fb142e68adefabd28adcb8bfa3ce607d
+# Source0-md5:	1a8621237b918c010d6eaba877c2958f
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_XML/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
