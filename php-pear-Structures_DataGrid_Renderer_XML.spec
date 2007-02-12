@@ -5,7 +5,7 @@
 %define		_pearname	Structures_DataGrid_Renderer_XML
 
 Summary:	%{_pearname} - Renderer driver that generates a XML string
-Summary(pl.UTF-8):   %{_pearname} - sterownik renderera generujący ciąg znaków XML
+Summary(pl.UTF-8):	%{_pearname} - sterownik renderera generujący ciąg znaków XML
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	1
