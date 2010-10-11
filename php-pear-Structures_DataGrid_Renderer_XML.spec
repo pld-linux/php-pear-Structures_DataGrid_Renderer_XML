@@ -1,15 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_XML
+%define		subver	dev1
+%define		rel		1
 Summary:	%{_pearname} - Renderer driver that generates a XML string
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera generujący ciąg znaków XML
 Name:		php-pear-%{_pearname}
-Version:	0.1.3
-Release:	4
+Version:	0.1.4
+Release:	0.%{subver}.%{rel}
 License:	PHP License
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	189a97e7ef2e148820bf7b304ae811c8
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{subver}.tgz
+# Source0-md5:	2a4368ad825ab627abb5cc4cf20647e4
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_XML/
 BuildRequires:	php-pear-PEAR >= 1:1.4.9
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
